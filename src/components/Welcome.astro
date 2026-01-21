@@ -1,3 +1,4 @@
+
 <div id="container">
 	<main>
 		<section id="hero">
@@ -6,7 +7,7 @@
 				<h1>Ben Schylling, Software Engineer</h1>
 			</header>
 			<section id="projects">
-				<div class="project-box" data-tooltip="Project 1">Project 1</div>
+				<a href="/project1"><div class="project-box" data-tooltip="Project 1">Project 1</div></a>
 				<div class="project-box" data-tooltip="Project 2">Project 2</div>
 				<div class="project-box" data-tooltip="Project 3">Project 3</div>
 				<div class="project-box" data-tooltip="Project 4">Project 4</div>
@@ -192,15 +193,19 @@
 		backdrop-filter: blur(50px);
 	}
 
-	#news:hover {
-		background: rgba(255, 255, 255, 0.55);
-	}
-
-	@media screen and (max-height: 368px) {
-		#news {
-			display: none;
+		#news:hover {
+			background: rgba(255, 255, 255, 0.55);
 		}
-	}
+
+		#projects a {
+			text-decoration: none;
+		}
+
+		@media screen and (max-height: 368px) {
+			#news {
+				display: none;
+			}
+		}
 
 	@media screen and (max-width: 768px) {
 		#container {
