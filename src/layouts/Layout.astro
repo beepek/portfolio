@@ -8,6 +8,17 @@
 		<title>Astro Basics</title>
 	</head>
 	<body>
+		<nav class="w-full h-12 bg-gradient-to-r from-gray-200 to-[#D9D3D2] flex items-center justify-center space-x-4 text-gray-800">
+			{ Astro.url.pathname === '/about' ? (
+				<a href="/" class="hover:underline">Return</a>
+			) : (
+				<>
+					<a href="/about" class="hover:underline">About Me</a>
+					<a href="/portfolio" class="hover:underline">Portfolio</a>
+					<a href="/contact" class="hover:underline">Contact</a>
+				</>
+			) }
+		</nav>
 		<slot />
 	</body>
 </html>
@@ -19,5 +30,7 @@
 		width: 100%;
 		height: 100%;
 		background-color: #D9D3D2;
+		display: flex;
+		flex-direction: column;
 	}
  </style>
