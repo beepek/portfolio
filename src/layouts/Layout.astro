@@ -9,7 +9,7 @@
 	</head>
 	<body>
 		<nav class="w-full h-12 bg-gradient-to-r from-gray-200 to-[#D9D3D2] flex items-center justify-center space-x-4 text-gray-800">
-			{ Astro.url.pathname === '/about' ? (
+			{ (Astro.url.pathname === '/about' || Astro.url.pathname === '/portfolio') ? (
 				<a href="/" class="hover:underline">Return</a>
 			) : (
 				<>
