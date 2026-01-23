@@ -1,1 +1,1 @@
-<a href="https://benschylling.com"><img src="public/profile.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover; display: block; margin: 0 auto;" /></a>
+<p align="center"><a href="https://benschylling.com"><img src="public/profile.jpg" alt="Profile Picture" style="width: 150px; height: 150px; border-radius: 50%; object-fit: cover;" /></a></p>
