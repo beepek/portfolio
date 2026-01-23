@@ -21,4 +21,4 @@ export default {
     },
   },
   plugins: [require('@tailwindcss/container-queries')],
-}
+} // literally just so there is content to push
